@@ -108,6 +108,8 @@ const searchHandler = () =>{
   {return result.innerHTML = `${search} - PSZOK`}
   else if (glass.includes(search))
   {return result.innerHTML = `${search} - szkło`}
+  else
+  {return alert("Niestety podany przedmiot nie znajduje się jeszcze w naszej bazie.")}
   
 
 }
