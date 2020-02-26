@@ -30,7 +30,7 @@
    <form autocomplete="off">
     <div class="autocomplete" style="width: 500px,;">
       <div class="input-group  mb-3">
-        <input type="text" onfocus="this.value=''" class="form-control" name="fname" placeholder="Co chcesz wyrzucić?" id="myInput"
+        <input type="text" onfocus="if(this.value == 'value') { this.value = ''; }"  class="form-control" name="fname" placeholder="Co chcesz wyrzucić?" id="myInput"
         aria-label="Recipient's username" aria-describedby="button-addon2">
         <div class="input-group-append"></div>
     <div ><input id= "submit" type="button" class="btn btn-outline-primary" id="button-addon2" value="Wyszukaj"></div>
